@@ -1,2 +1,2 @@
-# Inocent-Tamunosiki-Somiari
+# inocent-tamunosiki
  Portfolio Page
