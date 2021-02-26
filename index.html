@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tamunosiki Portfolio page</title>
+    <link rel="stylesheet" href="innocent-tamunosiki/style.css">
     <!-- title icon -->
 </head>
 <style>
@@ -21,7 +22,7 @@
     }
     #main{
         width: 100%;
-        height:100vh;
+        height:100vh; 
         box-sizing: border-box;
         background-color: #edf1fd;
         position: relative;
@@ -61,7 +62,8 @@
        color: #292929;
        font-family: poppins;
     }
-    .menu li a:hover, .active{
+    .menu li a:hover, 
+    .active{
         background-color: #292929;
         color: #ffffff !important;
         font-weight: 700;
@@ -87,7 +89,19 @@
         margin: 0px;
         letter-spacing: 3px;
         color: #292929;
-
+    }
+    .cv-btn{
+        width: 200px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #292929;
+        color: #ffffff;
+    }
+    cv-btn:hover{
+        background-color: #131313;
+        transition: all ease 0.5s;
     }
 
 </style>
@@ -100,7 +114,7 @@
         <a href="#" class="lgog">LOGO</a>
         <!-- menu -->
         <ul class="menu">
-            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Porfolio</a></li>
@@ -114,7 +128,7 @@
         <!-- hello -->
         <p>Hello</p>
         <!-- name  -->
-        <h1><span> I am Innocent Tamunosiki</span></h1>
+        <h1><span> I am <font color="#17d1ac">Innocent</font>  Tamunosiki</span></h1>
         <!-- details -->
         <p>I am a Front-End Web Developer and a UI/UX Designer, I have two years work experience. 
             I am a graduate of Management from the prestigious University of Port Harcourt
